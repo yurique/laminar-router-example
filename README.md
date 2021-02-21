@@ -1,51 +1,5 @@
-An example project for the `laminar-router`: https://github.com/tulz-app/laminar-router
+# frontroute example
 
-# Running
+An example project for the `frontroute`: https://github.com/tulz-app/frontroute
 
-## Front-end
-
-Install npm dependencies:
-
-```
-yarn install
-```
-
-Build the front-end:
-
-```
-sbt frontendJS/fastOptJS
-```
-
-Start the webpack dev server:
-
-```
-yarn start
-```
-
-## Open 
-
-Open http://localhost:30290/ in the browser.
-
-# Developing
-
-To make sbt re-compile the front-end on code changes:
-
-```
-sbt ~frontendJS/fastOptJS
-```
-
-# Prod build
-
-Build an optimized js for the front-end:
-
-```
-sbt frontendJS/fullOptJS
-```
-
-Run the webpack:
-
-```
-yarn run build:prod
-```
-
-The front-end assets will be generated into the `dist` folder.
+This repository has moved here: https://github.com/yurique/frontroute-example
